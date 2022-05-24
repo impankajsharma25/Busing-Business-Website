@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Busing Consulting Bootstrap</title>
+    <link rel="stylesheet" href="/css/css.css" />
+    <link rel="stylesheet" href="/fontawesome/css/all.css" />
+    <script src="/javascript/java.js"></script>
+  </head>
+  <body>
+ <!-- ============ navbar ================= -->
+
+ <div class="navigation-bar">
+  <div class="logo">
+    <img src="/img/logo.png" alt="" />
+  </div>
+  <div class="menu">
+    <!-- <div class="menu-items"> -->
+
+    <ul>
+      <li class="f-d-n">
+        <a href="/Busing.html">
+          <div class="menu-text animated-before display-none black-font">
+            Home &#8623;
+          </div>
+        </a>
+        <div class="sub-menu-1">
+          <ul>
+            <li><a href="/busing.html"> Home One</a></li>
+            <li><a href="">Home Two</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <!-- === -->
+      <li class="f-d-n">
+        <a href="/about.html">
+          <div class="menu-text black-font">About</div>
+        </a>
+      </li>
+      <!-- ===== -->
+      <li class="f-d-n">
+        <a href="/services.html" class="animated-before black-font"
+          >Service</a
+        >
+      </li>
+
+      <!-- ======= -->
+      <li class="f-d-n">
+        <a
+          href="/portfolio.html"
+          class="menu-text animated-before black-font"
+        >
+          Portfolio &#8623;
+        </a>
+        <div class="sub-menu-1">
+          <ul>
+            <li><a href="/portfolio.html"> Portfolio One</a></li>
+            <li><a href="/portfolio.html">Portfolio Two</a></li>
+            <li><a href="/portfolio-detail.html">Portfolio Detail</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <!-- ========== -->
+      <li class="f-d-n">
+        <a href="/blog/blog.html">
+          <div class="menu-text animated-before black-font">
+            Blog &#8623;
+          </div>
+        </a>
+        <div class="sub-menu-1">
+          <ul>
+            <li><a href="/blog/blog.html"> Blog One</a></li>
+            <li><a href="/blog/blog-sidebar.html">Blog Left Slider</a></li>
+            <li><a href="/blog/blog-detail.html">Blog Details</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <!-- ====== -->
+
+      <li class="f-d-n">
+        <a href="/contact.html" class="animated-before black-font"
+          >Contact</a
+        >
+      </li>
+
+      <!-- ===== -->
+      <li class="mobile-search-opt">
+        <a href="http:google.com"></a
+        ><i class="fas fa-search mobile-search-opt-col black-font"></i>
+      </li>
+
+      <!-- ========== -->
+      <li class="sidebar-hover" onclick="openSidenav()">
+        <a class="hberger-icon black-font">&#9776;</a>
+        <!-- =========== -->
+
+        <!-- <div class="side-cross-arrow-button">
+          <i class="fas fa-times"></i>
+         </div> -->
+
+        <!-- ================= -->
+      </li>
+    </ul>
+    <div id="menu-sidebar">
+      <div id="cross-x-arrow" >
+        <a href="javascript:void(0)" 
+         onclick="closeSidenav()" class="x-arr">
+          &times;
+        </a>
+      </div>
+      <div class="main-sidebar">
+        <div class="sidebar-search">
+          <input type="text" placeholder="Search......" />
+          <i class="fas fa-search"></i>
+        </div>
+
+        <div class="sidebar-text">
+          <h1>WHO WE ARE</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
+          </p>
+        </div>
+
+        <div class="sidebar-list">
+          <ul>
+            <li><a href="/busing.html">HOME</a></li>
+            <li><a href="/services.html">SERVICE</a></li>
+            <li><a href="/portfolio.html">PORTFOLIO</a></li>
+            <li><a href="/about.html">ABOUT US</a></li>
+            <li><a href="/contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-list-mq for-display">
+          <ul>
+            <li>
+              <details>
+                <summary>
+                  <a >HOME</a>
+                  <i class="fas fa-plus"></i>
+                </summary>
+
+                <p>Home one</p>
+                <p>Home Two</p>
+              </details>
+          
+              
+            </li>
+            <li>
+              <a href="">About</a>
+             
+              
+            </li>
+            <li>
+              <a href="">Service</a>
+         
+              
+            </li>
+            <li>
+              <details>
+                <summary>
+                
+                  <a>Portfolio</a>
+                  <i class="fas fa-plus"></i>
+                </summary>
+
+                <p>Portfolio one</p>
+                <p>Portfolio Two</p>
+                <p>Portfolio Three</p>
+              </details>
+              
+            </li>
+            <li>
+              <details>
+                <summary>
+                
+                  <a>Blog</a>
+                  <i class="fas fa-plus"></i>
+              
+                </summary>
+
+                <p>Blog one</p>
+                <p>Blog Two</p>
+                <p>Blog Three</p>
+              </details>
+              
+            </li>
+            <li>
+              <a href="">Contact</a>
+      
+              
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-contact">
+          <h1>CONTACT WITH US</h1>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="sm-img-div">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div">
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div">
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- ======== about us secction 1 ================ -->
+
+    <div class="about-us">
+        <h1>Service</h1>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li>Service</li>
+      </ul>
+    </div>
+
+     <!-- ================================ section 3 ============================== -->
+    
+     <div class="section3 service-sec3-margin">
+        
+        <div class="sec3-main-box">
+          <div class="sec3-box">
+            <div class="sec3-img">
+              <!-- <img src="/img/member-2.png" alt="" /> -->
+              <i class="fas fa-flask"></i>
+            </div>
+            <h1>Mobile App Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
+              ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu
+              posuere.
+            </p>
+          </div>
+          <div class="sec3-box">
+            <div class="sec3-img">
+              <i class="fas fa-edit"></i>
+            </div>
+            <h1>Ui/Ux Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
+              ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu
+              posuere.
+            </p>
+          </div>
+          <div class="sec3-box">
+            <div class="sec3-img">
+              <i class="far fa-compass"></i>
+            </div>
+            <h1>Wireframing Task</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
+              ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu
+              posuere.
+            </p>
+          </div>
+          <div class="sec3-box">
+            <div class="sec3-img">
+              <i class="fab fa-codepen"></i>
+            </div>
+            <h1>Web Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
+              ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu
+              posuere.
+            </p>
+          </div>
+          <div class="sec3-box">
+            <div class="sec3-img">
+              <i class="fas fa-book"></i>
+            </div>
+            <h1>Article Writting</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
+              ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu
+              posuere.
+            </p>
+          </div>
+          <div class="sec3-box">
+            <div class="sec3-img">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h1>Content Management</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
+              ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu
+              posuere.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+
+  
+  
+
+    <!-- ================================ section 8 ============================== -->
+
+    <div class="section8">
+      <div class="project-div">
+        <h1>Do You Have Any Projects ?</h1>
+        <p>
+          Whether you want to work with us or are interested in learning more
+          about what we do, we’d love to hear from you.
+        </p>
+        <a href="" class="btn3">CONTACT NOW</a>
+      </div>
+    </div>
+
+    <!-- ================================ section 9 ============================== -->
+
+    <div class="section9">
+      <div class="sec9-box1">
+        <div class="sec9-logo">
+          <img src="/img/blue-logo.png" alt="" />
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consect ascing elit, sed do eiusmod
+          incididunt ut labore et dolore Many desktop lishing packages and web
+          page editors
+        </p>
+        <div class="sec9-list-div">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="sm-img-div footer-li-margin">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div footer-li-margin">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div footer-li-margin">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div footer-li-margin">
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="sm-img-div footer-li-margin">
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sec9-box2">
+        <h1>OUR SERVICES</h1>
+        <ul>
+          <li><i> &#8594;</i><a>Mobile App Development</a></li>
+          <li><i> &#8594;</i><a>Ui/Ux Design</a></li>
+          <li><i> &#8594;</i> <a>Web Development</a></li>
+
+          <li><i> &#8594;</i> <a> Artile Writing</a></li>
+          <li><i> &#8594;</i><a>Content Management</a></li>
+        </ul>
+      </div>
+      <div class="sec9-box3">
+        <h1>QUICK LINK</h1>
+        <ul>
+          <li><i> &#xf101;</i><a>Home</a></li>
+          <li><i> &#xf101;</i><a>About</a></li>
+          <li><i> &#xf101;</i> <a>Help Center</a></li>
+
+          <li><i> &#xf101;</i> <a>Condition</a></li>
+          <li><i> &#xf101;</i><a>Term Of Use</a></li>
+        </ul>
+      </div>
+      <div class="sec9-box4">
+        <h1>GET IN TOUCH</h1>
+        <p>Enter Your Email and get latest news from us</p>
+        <div class="email-box">
+          <input type="text" placeholder="email@example.com" />
+          <div class="email-img-div">
+            <!-- <img src="/img/inbox.png" alt=""> -->
+            <i class="fas fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======================= footer =========================== -->
+
+    <div class="footer">
+      <hr />
+      <div class="footer-main">
+        <p>
+          Copyright © 2021 HasThemes | Built with <strong>Busing</strong> by
+          HasThemes.
+        </p>
+      </div>
+    </div>
+
+
+      <!-- ============scoll navbar ================= -->
+
+      <div id="navbar001">
+        <div class="navigation-bar">
+          <div class="logo">
+            <img src="/img/logo.png" alt="" />
+          </div>
+          <div class="menu">
+            <!-- <div class="menu-items"> -->
+  
+            <ul>
+              <li class="f-d-n">
+                <a href="/Busing.html">
+                  <div class="menu-text animated-before display-none black-font">
+                    Home &#8623;
+                  </div>
+                </a>
+                <div class="sub-menu-1">
+                  <ul>
+                    <li><a href=""> Home One</a></li>
+                    <li><a href="">Home Two</a></li>
+                  </ul>
+                </div>
+              </li>
+  
+              <!-- === -->
+              <li class="f-d-n">
+                <a href="/about.html">
+                  <div class="menu-text black-font">About</div>
+                </a>
+              </li>
+              <!-- ===== -->
+              <li class="f-d-n">
+                <a href="/services.html" class="animated-before black-font"
+                  >Service</a
+                >
+              </li>
+  
+              <!-- ======= -->
+              <li class="f-d-n">
+                <a
+                  href="/portfolio.html"
+                  class="menu-text animated-before black-font"
+                >
+                  Portfolio &#8623;
+                </a>
+                <div class="sub-menu-1">
+                  <ul>
+                    <li><a href="/portfolio.html"> Portfolio One</a></li>
+                    <li><a href="/portfolio.html">Portfolio Two</a></li>
+                    <li><a href="/portfolio-detail.html">Portfolio Detail</a></li>
+                  </ul>
+                </div>
+              </li>
+  
+              <!-- ========== -->
+              <li class="f-d-n">
+                <a href="/blog/blog.html">
+                  <div class="menu-text animated-before black-font">
+                    Blog &#8623;
+                  </div>
+                </a>
+                <div class="sub-menu-1">
+                  <ul>
+                    <li><a href="/blog/blog.html"> Blog One</a></li>
+                    <li><a href="/blog/blog-sidebar.html">Blog Left Slider</a></li>
+                    <li><a href="/blog/blog-detail.html">Blog Details</a></li>
+                  </ul>
+                </div>
+              </li>
+  
+              <!-- ====== -->
+  
+              <li class="f-d-n">
+                <a href="/contact.html" class="animated-before black-font"
+                  >Contact</a
+                >
+              </li>
+  
+              <!-- ===== -->
+              <li class="mobile-search-opt">
+                <a href="http:google.com"></a
+                ><i class="fas fa-search mobile-search-opt-col black-font"></i>
+              </li>
+  
+              <!-- ========== -->
+              <li class="sidebar-hover" onclick="openSidenav()">
+                <a class="hberger-icon black-font">&#9776;</a>
+                <!-- =========== -->
+  
+                <!-- <div class="side-cross-arrow-button">
+            <i class="fas fa-times"></i>
+           </div> -->
+  
+                <!-- ================= -->
+              </li>
+            </ul>
+            <div id="menu-sidebar">
+              <div id="cross-x-arrow">
+                <a
+                  href="javascript:void(0)"
+                  onclick="closeSidenav()"
+                  class="x-arr"
+                >
+                  &times;
+                </a>
+              </div>
+              <div class="main-sidebar">
+                <div class="sidebar-search">
+                  <input type="text" placeholder="Search......" />
+                  <i class="fas fa-search"></i>
+                </div>
+  
+                <div class="sidebar-text">
+                  <h1>WHO WE ARE</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+  
+                <div class="sidebar-list">
+                  <ul>
+                    <li><a href="/busing.html">HOME</a></li>
+                    <li><a href="/services.html">SERVICE</a></li>
+                    <li><a href="/portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="/about.html">ABOUT US</a></li>
+                    <li><a href="/contact.html">CONTACT US</a></li>
+                  </ul>
+                </div>
+                <div class="sidebar-list-mq for-display">
+                  <ul>
+                    <li>
+                      <details>
+                        <summary>
+                          <a>HOME</a>
+                          <i class="fas fa-plus"></i>
+                        </summary>
+  
+                        <p>Home one</p>
+                        <p>Home Two</p>
+                      </details>
+                    </li>
+                    <li>
+                      <a href="">About</a>
+                    </li>
+                    <li>
+                      <a href="">Service</a>
+                    </li>
+                    <li>
+                      <details>
+                        <summary>
+                          <a>Portfolio</a>
+                          <i class="fas fa-plus"></i>
+                        </summary>
+  
+                        <p>Portfolio one</p>
+                        <p>Portfolio Two</p>
+                        <p>Portfolio Three</p>
+                      </details>
+                    </li>
+                    <li>
+                      <details>
+                        <summary>
+                          <a>Blog</a>
+                          <i class="fas fa-plus"></i>
+                        </summary>
+  
+                        <p>Blog one</p>
+                        <p>Blog Two</p>
+                        <p>Blog Three</p>
+                      </details>
+                    </li>
+                    <li>
+                      <a href="">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="sidebar-contact">
+                  <h1>CONTACT WITH US</h1>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <div class="sm-img-div">
+                          <i class="fab fa-facebook-f"></i>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="sm-img-div">
+                          <i class="fab fa-twitter"></i>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="sm-img-div">
+                          <i class="fab fa-linkedin-in"></i>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="sm-img-div">
+                          <i class="fab fa-youtube"></i>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="sm-img-div">
+                          <i class="fab fa-instagram"></i>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+  </body>
+</html>
